@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sandbox-duck-db"
+version = "0.1.0"
+description = "Place for me to play around with Duck DB"
+authors = ["nick-roberson <nicholas.roberson.95@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+duckdb = "^0.10.0"
+pandas = "^2.2.0"
+black = "^24.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
